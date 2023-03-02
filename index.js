@@ -14,7 +14,9 @@ app.use(bodyParser.json());
 function FSendMailOTPTimviec365(title,content,receiver){
     return new Promise((resolve,reject)=>{
         let transporter = nodemailer.createTransport({
-            service:'gmail',
+            host: 'smtp.gmail.com',
+            port: 465,
+            secure: true,
             auth:{
             user:'work247.vn.2@gmail.com',
             pass:'durylycqvvhpljxz'
