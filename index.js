@@ -17,7 +17,7 @@ function FSendMailOTPTimviec365(title,content,receiver){
             service:'gmail',
             auth:{
             user:'work247.vn.2@gmail.com',
-            pass:'dlosvoyvzeyvxaru'
+            pass:'durylycqvvhpljxz'
             }
         });
         const mail_config = {
