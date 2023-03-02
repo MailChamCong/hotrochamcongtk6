@@ -15,8 +15,9 @@ function FSendMailOTPTimviec365(title,content,receiver){
     return new Promise((resolve,reject)=>{
         let transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
-            port: 465,
-            secure: true,
+            port: 587,
+            ignoreTLS: false,
+            secure: false,
             auth:{
             user:'work247.vn.2@gmail.com',
             pass:'durylycqvvhpljxz'
