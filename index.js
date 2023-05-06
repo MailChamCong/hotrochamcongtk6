@@ -26,12 +26,12 @@ function FSendMailOTPTimviec365(title,content,receiver){
             port: 587,
             secure: false,
             auth:{
-            user:'work247.vn.2@gmail.com',
-            pass:'durylycqvvhpljxz'
+            user:'hotrochamcongtk6@gmail.com',
+            pass:'spkwknimnfwociqz'
             }
         });
         const mail_config = {
-            from:'work247.vn.2@gmail.com',
+            from:'hotrochamcongtk6@gmail.com',
             to:receiver,
             subject:title,
             html: `${content}`
